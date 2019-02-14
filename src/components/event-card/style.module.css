@@ -1,0 +1,10 @@
+.event-card{
+    position: relative;
+    height:10vw;
+    width: 35vw;
+    background-color: goldenrod;
+    border-radius: 25px;
+    z-index: 0;
+    transform: scale(0.95);
+    transition: box-shadow 0.5s, transform 0.5s;
+}

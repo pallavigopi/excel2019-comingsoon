@@ -1,0 +1,8 @@
+
+#event-grid{
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 7%;
+}
