@@ -21,7 +21,14 @@ export default class Home extends Component {
         }
         return(
             <div style={{height: "100vh", overflow: "auto", color: "white"}}>
-                <h1><center>Excel 2019</center></h1>
+                <div className={styles["header"]}>
+                    <div className={styles["header-left"]}></div>
+                    <div className={styles["header-center"]}>
+                        <div className={styles["header-title"]}></div>
+                        <div className={styles["header-about"]}></div>
+                    </div>
+                    <div className={styles["header-right"]}></div>
+                </div>
                 <div id={styles["event-grid"]}>
                   {grid}
                 </div>
