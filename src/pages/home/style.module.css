@@ -14,22 +14,35 @@
 	margin: 30px;
 }
 
+
+	/* Left Header portion */
+
 .header-left {
     height: 10vh;
     width: 14vw;
-    background-color: white;
+	background-color: white;
+	display: flex;
 }
+
+.mec-logo{
+	width:50%;
+	height: 100%;
+	background-color: white;
+}
+
+.mec{
+	width:50%;
+	height:100%;
+	background-color: black;
+	font-size:19px;
+}
+
+	/* Center Header portion */
 
 .header-center {
-	background-color: white;
+	background-color: black;
 	width: 50vw;
-	height: 40vh;
-}
-
-.header-right {
-    height: 10vh;
-    width: 14vw;
-    background-color: white;
+	height: 38vh;
 }
 
 .header-title {
@@ -37,11 +50,46 @@
 	background-color: black;
 	height: 15vh;
 	width: 15vw;
+	display: flex;
 }
 
+.excel-logo{
+	width:40%;
+	height: 100%;
+	background-color: white;
+}
+
+.excel{
+	width:60%;
+	height:100%;
+	background-color: black;
+	font-size: 50px;
+}
 .header-about {
 	height: 15vh;
-	width: 30vw;
+	width: 50vw;
 	background-color: black;
 	margin: auto auto;
+	font-size: 25px;
+}
+
+	/*Right Header portion */
+
+.header-right {
+    height: 10vh;
+    width: 14vw;
+	background-color: black;
+	display:flex;
+}
+
+.excel-legacy{
+	font-size: 25px;
+	width:50%;
+	height:100%;
+}
+
+.legacy-logo{
+	width:50%;
+	height:100%;
+	background-color: white;
 }

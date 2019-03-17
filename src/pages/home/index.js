@@ -22,13 +22,31 @@ export default class Home extends Component {
         return(
             <div style={{height: "100vh", overflow: "auto", color: "white"}}>
                 <div className={styles["header"]}>
-                    <div className={styles["header-left"]}></div>
-                    <div className={styles["header-center"]}>
-                        <div className={styles["header-title"]}></div>
-                        <div className={styles["header-about"]}></div>
+
+                    <div className={styles["header-left"]}>
+                        <div className = {styles["mec-logo"]}></div>
+                        <div className = {styles["mec"]}>Govt. Model Engineering College, Kochi</div>
                     </div>
-                    <div className={styles["header-right"]}></div>
+
+
+                    <div className={styles["header-center"]}>
+                        <div className={styles["header-title"]}>
+                            <div className = {styles["excel-logo"]}></div>
+                            <div className = {styles["excel"]}><b>EXCEL 2019</b></div>
+                        </div>
+                        <div className={styles["header-about"]}>
+                            <p style={{marginLeft:"20%"}}>First tech fest in the world, better than the rest.</p>
+                            <p style={{marginLeft:"3%"}}>Random bullshit about how excel is gonna  make the world a better place.</p>
+                            <p style={{marginLeft:"16%"}}>20th Edition blah blah, ask content team for the rest.</p>
+                        </div>
+                    </div>
+
+                    <div className={styles["header-right"]}>
+                        <div className = {styles["excel-legacy"]}>Excel Legacy</div>
+                        <div className = {styles["legacy-logo"]}></div>
+                    </div>
                 </div>
+
                 <div id={styles["event-grid"]}>
                   {grid}
                 </div>
