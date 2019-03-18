@@ -8,8 +8,8 @@ export default class Home extends Component {
     constructor(props){
         super(props)
         this.state={
-            events:[{name:"Ibeto",link:"http://ibeto.excelmec.org/",description:"la la la la la"},
-            {name:"Ibeto",link:"http://ibeto.excelmec.org/",description:"la la la la la"}]
+            events:[{name:"IBETO 2019",link:"http://ibeto.excelmec.org/",description:"Lots of cash, low competition, easy win. More info here "},
+            {name:"HackForTomorrow 2019",link:"http://ibeto.excelmec.org/",description:"Literally the same as last year. More info here "}]
         }
     }
     render() {
