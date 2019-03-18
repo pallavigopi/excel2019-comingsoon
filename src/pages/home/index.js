@@ -21,7 +21,7 @@ export default class Home extends Component {
 			grid.push(gridItem)
         }
         return(
-            <div style={{height: "100vh", overflow: "auto", color: "white"}}>
+            <div className={styles["home"]}>
                 <Header />
                 <ExcelAbout />
                 <div id={styles["event-grid"]}>

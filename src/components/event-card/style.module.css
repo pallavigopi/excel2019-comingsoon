@@ -8,6 +8,7 @@
     transform: scale(0.95);
     transition: box-shadow 0.5s, transform 0.5s;
     display: flex;
+    padding-bottom: 4vh;
 }
 
 .event-logo{
