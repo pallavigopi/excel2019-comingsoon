@@ -8,5 +8,7 @@
 }
 .home {
 	background-color: #1A1A1A;
-	color: white;	
+	color: white;
+	height: 100vh;
+	overflow: auto;
 }
