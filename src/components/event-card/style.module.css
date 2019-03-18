@@ -1,9 +1,9 @@
 .event-card{
     position: relative;
-    height:10vw;
+    height: 7vw;
     width: 35vw;
-    background-color: goldenrod;
     border-radius: 25px;
+    color: white;
     z-index: 0;
     transform: scale(0.95);
     transition: box-shadow 0.5s, transform 0.5s;
@@ -11,9 +11,11 @@
 }
 
 .event-logo{
-    width: 30%;
-    /* background-color: aqua; */
-    /* border-radius: 25px; */
+    height: 5vw;
+    width: 5vw;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0vh 2vh;
 }
 
 .event{
