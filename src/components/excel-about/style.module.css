@@ -1,10 +1,11 @@
-.header-about {
+.excel-details {
 	height: 15vh;
 	width: 50vw;
 	background-color: black;
 	margin: auto auto;
 	font-size: 1.2rem;
     line-height: 0.9rem;
+    padding: 1vh 0vh 10vh 0vh;
 }
 
 .about-text {
