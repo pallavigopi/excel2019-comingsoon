@@ -14,7 +14,7 @@
 }
 
 .mec-logo{
-	width:50%;
+	width:20%;
 	height: 100%;
 	background-color: white;
 }
@@ -22,7 +22,7 @@
 .mec{
 	width: 100%;
 	height: 100%;
-	background-color: black;
+	background-color: #1A1A1A;
 	font-size: 19px;
 	padding-left: 1vh;
 }
@@ -30,14 +30,14 @@
 	/* Center Header portion */
 
 .header-center {
-	background-color: black;
+	background-color: #1A1A1A;
 	width: 50vw;
 	height: 25vh;
 }
 
 .header-title {
 	margin: 3vh auto;
-	background-color: black;
+	background-color: #1A1A1A;
 	height: 15vh;
 	width: 15vw;
 	display: flex;
@@ -52,7 +52,7 @@
 .excel{
 	width:60%;
 	height:100%;
-	background-color: black;
+	background-color: #1A1A1A;
 	font-size: 2.8rem;
 	padding-left: 1vh;
 }
@@ -61,7 +61,7 @@
 .header-right {
     height: 10vh;
     width: 14vw;
-	background-color: black;
+	background-color: #1A1A1A;
 	display:flex;
 }
 

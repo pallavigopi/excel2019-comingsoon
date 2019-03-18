@@ -6,3 +6,7 @@
 	grid-template-columns: auto auto;
 	grid-gap: 7%;
 }
+.home {
+	background-color: #1A1A1A;
+	color: white;	
+}
