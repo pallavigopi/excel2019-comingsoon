@@ -7,8 +7,15 @@ export default class EventCard extends Component {
     render() {
         return(
             <div className={styles["event-card"]}>
-                     {this.props.details.name}
-
+                    <div className = {styles["event-logo"]}></div>
+                    <div className = {styles["event"]}>
+                        <div className = {styles["event-name"]}>
+                            <b>{this.props.details.name}</b>
+                        </div>
+                        <div className = {styles["event-description"]}>
+                            {this.props.details.description}
+                        </div>
+                    </div>
             </div>
         );
     }
