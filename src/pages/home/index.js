@@ -10,7 +10,7 @@ export default class Home extends Component {
         super(props)
         this.state={
             events:[{name:"IBETO 2019",link:"http://ibeto.excelmec.org/",description:"Lots of cash, low competition, easy win. More info here "},
-            {name:"HackForTomorrow 2019",link:"http://ibeto.excelmec.org/",description:"Literally the same as last year. More info here "}]
+            {name:"HackForTomorrow 2019",link:"https://hackfortomorrow.excelmec.org/",description:"Literally the same as last year. More info here "}]
         }
     }
     render() {
