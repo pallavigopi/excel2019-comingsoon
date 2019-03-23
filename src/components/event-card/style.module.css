@@ -9,15 +9,9 @@
     transition: box-shadow 0.5s, transform 0.5s;
     display: flex;
     padding-bottom: 4vh;
+    padding: 1.4em 0em;
 }
 
-.event-logo{
-    height: 5vw;
-    width: 5vw;
-    background-color: white;
-    border-radius: 100%;
-    margin: 0vh 2vh;
-}
 
 .event{
     width:70%;
@@ -27,9 +21,15 @@
 
 .event-name{
     font-size: 1.7vw;
-    /* background-color: black; */
 }
 
 .event-description{
     font-size: 1.5vw;
+}
+
+/* logos */
+
+.logos {
+    max-width: 6vw;
+    padding-right: 1vw;
 }
