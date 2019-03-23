@@ -1,8 +1,11 @@
 import React, {Component} from 'react'
 import styles from './style.module.css';
-import excelLogo from './excellogo.png';
+import excelLogo from './excel2018.png';
 import mecLogo from './Meclogo.png';
-import excelLegacy from './excellegacy.png';
+import excel2014 from './excel2014.png';
+import excel2015 from './excel2015.png';
+import excel2016 from './excel2016.png';
+import excel2017 from './excel2017.png';
 
 export default class Header extends Component {
     
@@ -24,8 +27,10 @@ export default class Header extends Component {
                     </div>
 
                     <div className={styles["header-right"]}>
-                        <div className = {styles["excel-legacy"]}>Excel Legacy</div>
-                        <a href="" target="_blank"><img className={styles["logolegacy"]} src={excelLegacy}/></a>
+                        <a href="" target="_blank"><img className={styles["logolegacy"]} src={excel2014}/></a>
+                        <a href="" target="_blank"><img className={styles["logolegacy"]} src={excel2015}/></a>
+                        <a href="" target="_blank"><img className={styles["logolegacy"]} src={excel2016}/></a>
+                        <a href="" target="_blank"><img className={styles["logolegacy"]} src={excel2017}/></a>
                     </div>
                 </div>
 
