@@ -5,13 +5,14 @@ import ComingSoon from '../../components/coming-soon';
 import Header from 'components/header';
 import ExcelAbout from 'components/excel-about';
 import ibetoLogo from './ibetologo.png';
+import hackfortomorrow from './hftlogo.png';
 
 export default class Home extends Component {
     constructor(props){
         super(props)
         this.state={
             events:[{name:"IBETO 2019",imgsrc:ibetoLogo,link:"http://ibeto.excelmec.org/",description:"Lots of cash, low competition, easy win. More info here "},
-            {name:"HackForTomorrow 2019",imgsrc:ibetoLogo,link:"https://hackfortomorrow.excelmec.org/",description:"Literally the same as last year. More info here "}]
+            {name:"HackForTomorrow 2019",imgsrc:hackfortomorrow,link:"https://hackfortomorrow.excelmec.org/",description:"Literally the same as last year. More info here "}]
         }
     }
     render() {
