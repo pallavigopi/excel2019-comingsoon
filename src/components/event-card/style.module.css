@@ -8,7 +8,6 @@
     transform: scale(0.95);
     transition: box-shadow 0.5s, transform 0.5s;
     display: flex;
-    padding-bottom: 4vh;
     padding: 1.4em 0em;
 }
 
@@ -32,4 +31,31 @@
 .logos {
     max-width: 6vw;
     padding-right: 1vw;
+}
+
+/* mobiles devices */
+
+@media only screen and (max-width: 480px) {
+    .event-card {
+        padding: 0.5vh;
+        height: 15vw;
+        width: 90%;
+    }
+
+    .event {
+        width: 100%;
+    }
+
+    .event-name{
+        font-size: 3.2vw;
+    }
+    
+    .event-description{
+        font-size: 3vw;
+    }
+
+    .logos {
+        max-width: 13vw;
+        padding-right: 2vw;
+    }
 }

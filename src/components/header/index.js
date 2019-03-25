@@ -18,7 +18,6 @@ export default class Header extends Component {
                         <div className = {styles["mec"]}>Govt. Model Engineering College, Kochi</div>
                     </div>
 
-
                     <div className={styles["header-center"]}>
                         <div className={styles["header-title"]}>
                         <a href="https://excelmec.org" target="_blank"><img className={styles["logoexcel"]} src={excelLogo}/></a>
@@ -27,10 +26,10 @@ export default class Header extends Component {
                     </div>
 
                     <div className={styles["header-right"]}>
-                        <a href="" target="_blank"><img className={styles["logolegacy"]} src={excel2014}/></a>
-                        <a href="" target="_blank"><img className={styles["logolegacy"]} src={excel2015}/></a>
-                        <a href="" target="_blank"><img className={styles["logolegacy"]} src={excel2016}/></a>
-                        <a href="" target="_blank"><img className={styles["logolegacy"]} src={excel2017}/></a>
+                        <a href="https://excelmec.org/excel2014" target="_blank"><img className={styles["logolegacy"]} src={excel2014}/></a>
+                        <a href="https://excelmec.org/excel2015" target="_blank"><img className={styles["logolegacy"]} src={excel2015}/></a>
+                        <a href="https://excelmec.org/excel2016" target="_blank"><img className={styles["logolegacy"]} src={excel2016}/></a>
+                        <a href="https://excelmec.org/excel2017" target="_blank"><img className={styles["logolegacy"]} src={excel2017}/></a>
                     </div>
                 </div>
 
