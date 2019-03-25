@@ -8,7 +8,6 @@ export default class ComingSoon extends Component {
         return(
             <div className={styles["coming-soon"]}>
                      <center>Coming soon</center>
-
             </div>
         );
     }

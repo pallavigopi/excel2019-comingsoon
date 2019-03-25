@@ -1,9 +1,8 @@
 .coming-soon{
     color:black;
-    width: 80%;
+    width: 75%;
     margin: auto;
-    margin-top:4em;
-    height:40vh;
-    background-color: antiquewhite;
+    height: 20%;;
+    background-color: white;
     border-radius: 25px;
 }

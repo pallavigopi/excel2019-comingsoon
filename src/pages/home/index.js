@@ -1,34 +1,31 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 import styles from './style.module.css';
-import EventCard from 'components/event-card'
+import EventCard from 'components/event-card';
 import ComingSoon from '../../components/coming-soon';
-
+import Header from 'components/header';
+import ExcelAbout from 'components/excel-about';
+import ibetoLogo from './ibetologo.png';
+import hackfortomorrow from './hftlogo.png';
 
 export default class Home extends Component {
     constructor(props){
         super(props)
         this.state={
-            events:[{name:"Ibeto",link:"http://ibeto.excelmec.org/",description:"la la la la la"},
-            {name:"Ibeto",link:"http://ibeto.excelmec.org/",description:"la la la la la"}]
+            events:[{name:"IBETO 2019",imgsrc:ibetoLogo,link:"http://ibeto.excelmec.org/",description:"Lots of cash, low competition, easy win. More info here "},
+            {name:"HackForTomorrow 2019",imgsrc:hackfortomorrow,link:"https://hackfortomorrow.excelmec.org/",description:"Literally the same as last year. More info here "}]
         }
     }
     render() {
         var grid=[]
         var events = this.state.events
         for(var i in events){
-			var gridItem = ( <a target="_blank" key={i} style={{textDecoration:'none'}} href={events[i].link}><EventCard details={events[i]}/></a>)
+			var gridItem = ( <a target="_blank" key={i} style={{textDecoration:'none'}} href={events[i].link} ><EventCard details={events[i]}/></a>)
 			grid.push(gridItem)
         }
         return(
-            <div style={{height: "100vh", overflow: "auto", color: "white"}}>
-                <div className={styles["header"]}>
-                    <div className={styles["header-left"]}></div>
-                    <div className={styles["header-center"]}>
-                        <div className={styles["header-title"]}></div>
-                        <div className={styles["header-about"]}></div>
-                    </div>
-                    <div className={styles["header-right"]}></div>
-                </div>
+            <div className={styles["home"]}>
+                <Header />
+                <ExcelAbout />
                 <div id={styles["event-grid"]}>
                   {grid}
                 </div>
