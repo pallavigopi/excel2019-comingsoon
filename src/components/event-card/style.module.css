@@ -8,7 +8,12 @@
     transform: scale(0.95);
     transition: box-shadow 0.5s, transform 0.5s;
     display: flex;
-    padding: 1.4em 0em;
+    padding: 1.4em;
+}
+
+.event-card:hover{
+    border: 0.1vw solid white;
+    background-color: gray;
 }
 
 
