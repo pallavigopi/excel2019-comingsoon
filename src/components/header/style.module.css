@@ -83,7 +83,7 @@
 	.header {
 		display: flex;
 		flex-direction: column;
-		padding: 1.4em;
+		padding: 1vh;
 	}
 
 	.header-left {
@@ -101,8 +101,7 @@
 		height: 8vw;
 		width: 40vw;
 		margin: 1vh auto;
-		padding-top: 1vh;
-		padding-bottom: 4vh;
+		padding-bottom: 2vh;
 	}
 
 	.logomec {
