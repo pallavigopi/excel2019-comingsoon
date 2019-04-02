@@ -1,8 +1,28 @@
 .coming-soon{
     color:black;
-    width: 75%;
+    width: 60%;
     margin: auto;
-    height: 20%;;
+    height: 30%;;
     background-color: white;
     border-radius: 25px;
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+
+.gear-gif{
+    height: 100%;
+    width: 50%;
+    background-image: url("./giphy.gif");
+    background-repeat:no-repeat;
+    border: solid 1px black;
+}
+
+.comingSoon{
+    font-size:3vw;
+    font-family: 'Futura';
+}
+
+#demo{
+    font-size: 20vw;
+    background-color: black;
 }
