@@ -60,9 +60,10 @@ a{
 	padding: 2vh;
 	border-radius: 15px;
 	display:flex;
+	z-index: 3;
 	flex-direction: row-reverse;
 	background-color: #ffffff77;
-	
+	box-shadow: 0 8px 6px -6px black;
 }
 
 .header-right>a:hover{

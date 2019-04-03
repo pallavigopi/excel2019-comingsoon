@@ -7,6 +7,14 @@
     display: flex;
     background-color: #ffffffee;
     padding: 1.5vw;
+    box-shadow: 0 8px 20px -6px black;
+}
+
+.event-card:hover {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transform: translateY(-7px);
+    box-shadow: 0 14px 30px -6px black;
 }
 
 .event{
