@@ -20,8 +20,10 @@
 
 .comingSoon{
     font-size:3vw;
+    color: white;
     /* border: solid 10px black; */
     font-family: 'Futura';
     display: flex;
     justify-content: center;
+    align-items: center;
 }

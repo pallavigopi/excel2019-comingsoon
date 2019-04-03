@@ -15,7 +15,7 @@ export default class Header extends Component {
 
                     <div className={styles["header-left"]}>
                         <a href="http://mec.ac.in" target="_blank"><img className={styles["logomec"]} src={mecLogo}/></a>
-                        <div className = {styles["mec"]}>Govt. Model Engineering College, Kochi</div>
+                        <div className = {styles["mec"]}><a href="http://mec.ac.in" target="_blank">Govt. Model Engineering College, Kochi</a></div>
                     </div>
 
                     <div className={styles["header-center"]}>

@@ -5,12 +5,18 @@
 	justify-content: space-between;
 	padding: 1.4em;
 }
+
+a{
+	color:white;
+	text-decoration: none;
+}
 	/* Left Header portion */
 
 .header-left {
     height: 6vw;
     width: 16vw;
 	display: flex;
+	cursor: pointer;
 }
 
 .mec {
