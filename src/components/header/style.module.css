@@ -57,9 +57,14 @@
 
 .header-right>a:hover{
 	border-bottom: solid 0.3px white;
-	transition: 10s;
+	/* transition: 5s; */
 }
-
+/* 
+.header-right>a:hover,
+.header-right>a:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+} */
 
 
 
