@@ -16,9 +16,9 @@
 
 
 .event{
-    width:70%;
+    width:80%;
     display: grid;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 30% 60%;
 }
 
 .event-name{
