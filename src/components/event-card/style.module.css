@@ -1,18 +1,14 @@
 .event-card{
     position: relative;
     height: 6vw;
-    border-radius: 15px;
-    color: white;
+    border-radius: 5px;
+    color: black;
     z-index: 0;
     display: flex;
     padding: 1.4em;
-    transition: 0.3s;
+    background-color: #ffffffee;
 }
 
-.event-card:hover{
-    background-color: #ffffff;
-    color: black;
-}
 
 
 .event{
@@ -41,6 +37,7 @@
 @media only screen and (max-width: 480px) {
     .event-card {
         height: 10vw;
+        margin: 1vh 0vh;
     }
 
     .event {

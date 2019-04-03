@@ -37,10 +37,10 @@ export default class Home extends Component {
                     params={{
                         particles: {
                             size: {
-                                value: 3
+                                value: 4
                             },
                             number: {
-                                value: 50,
+                                value: 80,
                                 density: {
                                     enable: 'true',
                                     value_area: 800
