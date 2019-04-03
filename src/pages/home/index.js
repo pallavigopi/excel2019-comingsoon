@@ -19,7 +19,7 @@ export default class Home extends Component {
         var grid=[]
         var events = this.state.events
         for(var i in events){
-			var gridItem = ( <a target="_blank" key={i} style={{textDecoration:'none'}} href={events[i].link} ><EventCard details={events[i]}/></a>)
+			var gridItem = ( <a target="_blank" key={i} className={styles["events"]} href={events[i].link} ><EventCard details={events[i]}/></a>)
 			grid.push(gridItem)
         }
         return(
