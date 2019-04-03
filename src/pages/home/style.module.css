@@ -5,7 +5,7 @@
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-gap: 10vw;
-	padding-bottom: 3vh;
+	padding-bottom: 2vh;
 }
 
 .events {
@@ -35,7 +35,7 @@
     #event-grid {
 		display: flex;
 		flex-direction: column;
-		padding-bottom: 3vh;
+		padding-bottom: 0vh;
 	}
 
 	.events {

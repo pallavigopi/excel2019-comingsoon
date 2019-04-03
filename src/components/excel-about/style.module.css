@@ -4,7 +4,7 @@
 	background-color: #00000000;
 	font-size: 1.4vw;
 	line-height: 2vh;
-	margin-bottom: 4vh;
+	margin: 14vh auto 4vh auto;
 	overflow-wrap: break-word;
 }
 
@@ -18,7 +18,7 @@
 	.excel-details {
 		font-size: 4vw;
 		line-height: 1.2vh;
-		height: 10vh;
-		margin-bottom: 2vh;
+		height: 7vh;
+		margin-top: 1vh;
 	}
 }
