@@ -18,23 +18,10 @@
     /* border: solid 1px black; */
 }
 
-.countdown{
-    display: grid;
-    grid-template-rows: 50% 50%;
-}
 .comingSoon{
     font-size:3vw;
     /* border: solid 10px black; */
     font-family: 'Futura';
     display: flex;
     justify-content: center;
-}
-
-.timer{
-    font-size: 3vw;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    /* background-color: blue;
-    border: solid 10px black; */
 }
