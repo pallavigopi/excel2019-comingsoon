@@ -11,6 +11,7 @@
 .events {
 	text-decoration: none;
 	width: 35vw;
+	margin: auto auto;
 }
 
 .home {
@@ -33,13 +34,12 @@
 @media only screen and (max-width: 480px) {
     #event-grid {
 		display: flex;
-		margin-left: 10%;
 		flex-direction: column;
 		padding-bottom: 3vh;
 	}
 
 	.events {
-		width: 80vw;
+		width: 60vw;
 	}
 	
 	.home {

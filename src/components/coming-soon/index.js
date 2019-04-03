@@ -18,7 +18,7 @@ export default class ComingSoon extends Component {
             
             $randomnbr.each(function(){
                 
-              change = Math.round(Math.random()*500);
+              change = Math.round(Math.random()*300);
               $(this).attr('data-change', change);
               
             });
