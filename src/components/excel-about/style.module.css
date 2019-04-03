@@ -1,11 +1,10 @@
 .excel-details {
-	height: 12vh;
+	height: 16vh;
 	width: 100%;
 	background-color: #00000000;
 	font-size: 1.4vw;
 	line-height: 2vh;
-	padding-bottom: 1.4em;
-	margin: auto auto;
+	margin: 14vh auto 4vh auto;
 	overflow-wrap: break-word;
 }
 
@@ -17,9 +16,9 @@
 
 @media only screen and (max-width: 480px) {
 	.excel-details {
-		font-size: 3vw;
+		font-size: 4vw;
 		line-height: 1.2vh;
-		height: 10vh;
-		padding-bottom: 0vh; 
+		height: 7vh;
+		margin-top: 1vh;
 	}
 }

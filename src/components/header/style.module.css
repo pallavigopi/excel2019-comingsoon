@@ -5,17 +5,22 @@
 	justify-content: space-between;
 	padding: 1.4em;
 }
+
+a{
+	color:white;
+	text-decoration: none;
+}
 	/* Left Header portion */
 
 .header-left {
-    height: 6vw;
-    width: 16vw;
+  height: 6vw;
+  width: 16vw;
 	display: flex;
+	cursor: pointer;
 }
 
 .mec {
 	width: 100%;
-	background-color: #00000000;
 	font-size: 1.3vw;
 	display: flex;
 	flex-direction: column;
@@ -25,20 +30,22 @@
 	/* Center Header portion */
 
 .header-center {
-	background-color: #00000000;
+	position: absolute; 
 	height: 16vh;
-	margin: 3vh auto 0vh auto;
+	margin: 2vh auto;
+	left: 0;
+	right: 0;
 	padding-bottom: 8vh;
 }
 
 .header-title {
-	background-color: #00000000;
 	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 .excel {
 	width: 8vw;
-	background-color: #00000000;
 	font-size: 2.5vw;
 	font-weight: 600;
 	display: flex;
@@ -48,18 +55,19 @@
 	/*Right Header portion */
 
 .header-right {
-	height: 6vw;
-    width: 16vw;
+	height: 4vw;
+	width: 16vw;
+	padding: 2vh;
+	border-radius: 15px;
 	display:flex;
+	z-index: 3;
 	flex-direction: row-reverse;
+	background-color: #ffffff77;
+	box-shadow: 0 8px 6px -6px black;
 }
 
-.excel-legacy {
-	font-size: 1.3vw;
-	padding-left: 7vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+.header-right>a:hover{
+	border-bottom: solid 0.3px black;
 }
 
 /* resizing the logos */
@@ -91,17 +99,16 @@
 	}
 
 	.header-center {
-		background-color: #00000000;
 		height: 12vh;
 		margin: 1vh auto;
 		padding-bottom: 1vh;
 	}
 
 	.header-right {
-		height: 8vw;
-		width: 40vw;
-		margin: 1vh auto;
-		padding-bottom: 2vh;
+		padding: 1vh;
+		height: 12vw;
+		width: 48vw;
+		margin: 16vh auto 5vh auto;
 	}
 
 	.logomec {
@@ -119,6 +126,6 @@
 	}
 
 	.logolegacy {
-		max-width: 10vw;
+		max-width: 12vw;
 	}
 }

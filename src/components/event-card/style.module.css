@@ -1,24 +1,27 @@
 .event-card{
     position: relative;
     height: 6vw;
-    border-radius: 15px;
-    color: white;
+    border-radius: 5px;
+    color: black;
     z-index: 0;
     display: flex;
-    padding: 1.4em;
-    transition: 0.5s;
+    background-color: #ffffffee;
+    padding: 1.5vw;
+    box-shadow: 0 8px 20px -6px black;
 }
 
-.event-card:hover{
-    background-color: #ffffffaa;
-    color: black;
+.event-card:hover {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transform: translateY(-7px);
+    box-shadow: 0 14px 30px -6px black;
 }
-
 
 .event{
-    width:70%;
+    width: 35vw;
+    height: 8vw;
     display: grid;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 30% 60%;
 }
 
 .event-name{
@@ -40,11 +43,15 @@
 
 @media only screen and (max-width: 480px) {
     .event-card {
-        height: 10vw;
+        height: 15vw;
+        margin: 1vh 0vh;
+        padding: 2vh;
+        
     }
 
     .event {
         width: 100%;
+        height: 10vh;
     }
 
     .event-name{
