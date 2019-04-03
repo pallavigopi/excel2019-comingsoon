@@ -6,23 +6,35 @@
     background-color: white;
     border-radius: 25px;
     display:grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
 }
 
 .gear-gif{
     height: 100%;
-    width: 50%;
+    width: 100%;
+    margin-left:5vw;
     background-image: url("./giphy.gif");
     background-repeat:no-repeat;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 
+.countdown{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
 .comingSoon{
     font-size:3vw;
+    /* border: solid 10px black; */
     font-family: 'Futura';
+    display: flex;
+    justify-content: center;
 }
 
-#demo{
-    font-size: 20vw;
-    background-color: black;
+.timer{
+    font-size: 3vw;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue;
+    border: solid 10px black; */
 }
