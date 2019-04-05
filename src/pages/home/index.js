@@ -40,15 +40,15 @@ export default class Home extends Component {
                                 value: 4
                             },
                             number: {
-                                value: 80,
+                                value: 100,
                                 density: {
                                     enable: 'true',
                                     value_area: 800
                                 }
                             },
                             line_linked: {
-                                width: 1.5,
-                                distance: 150
+                                width: 1,
+                                distance: 130
                             },
                             move: {
                                 speed: 10
