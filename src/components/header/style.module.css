@@ -1,0 +1,127 @@
+.header {
+	display: flex;
+	position: relative;
+	align-content: space-between;
+	justify-content: space-between;
+	padding: 1.4em;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Left Header portion */
+
+.header-left {
+	height: 6vw;
+	width: 16vw;
+	display: flex;
+	cursor: pointer;
+	z-index: 3;
+}
+
+.mec {
+	width: 100%;
+	font-size: 1.3vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* Center Header portion */
+
+.header-center {
+	position: absolute;
+	height: 16vh;
+	margin: 2vh auto;
+	left: 0;
+	right: 0;
+	padding-bottom: 8vh;
+}
+
+.header-title {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.excel {
+	width: 8vw;
+	font-size: 2.5vw;
+	font-weight: 600;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*Right Header portion */
+
+.header-right {
+	height: 4vw;
+	width: 16vw;
+	padding: 2vh;
+	border-radius: 15px;
+	display: flex;
+	z-index: 3;
+	flex-direction: row-reverse;
+	background-color: #ffffff77;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+.header-right>a:hover {
+	border-bottom: solid 0.3px black;
+}
+
+/* resizing the logos */
+
+.logomec {
+	max-width: 6vw;
+}
+
+.logoexcel {
+	max-width: 7vw;
+	padding-right: 0.5vw;
+}
+
+.logolegacy {
+	max-width: 4vw;
+}
+
+/* Mobile devices */
+
+@media only screen and (max-width: 480px) {
+	.header {
+		display: flex;
+		flex-direction: column;
+		padding: 1vh;
+	}
+	.header-left {
+		display: none;
+	}
+	.header-center {
+		height: 12vh;
+		margin: 1vh auto;
+		padding-bottom: 1vh;
+	}
+	.header-right {
+		padding: 1vh;
+		height: 12vw;
+		width: 48vw;
+		margin: 16vh auto 5vh auto;
+	}
+	.logomec {
+		max-width: 10vw;
+	}
+	.excel {
+		width: 18vw;
+		font-size: 6vw;
+	}
+	.logoexcel {
+		max-width: 16vw;
+		padding-right: 2vw;
+	}
+	.logolegacy {
+		max-width: 12vw;
+	}
+}

@@ -9,9 +9,12 @@ const HomeImport  = () => import('pages/home')
 const Home = asyncComponent(HomeImport);
 
 class App extends Component {
+  
   render() {
     return (
-      <Home />
+   
+        <Home />
+   
     );
   }
 }
