@@ -26,14 +26,14 @@
 }
 
 .event-name {
-    font-size: 1.6rem;
+    font-size: 1.85vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 
 }
 
 .event-description {
-    font-size: 1.35rem;
+    font-size: 1.4vw;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -49,7 +49,7 @@
 
 @media only screen and (max-width: 480px) {
     .event-card {
-        height: 18vw;
+        height: 20vw;
         margin: 1vh 0vh;
         padding: 2vh;
     }
@@ -58,7 +58,7 @@
         height: 10vh;
     }
     .event-name {
-        font-size: 3.2vw;
+        font-size: 3.25vw;
     }
     .event-description {
         font-size: 3vw;

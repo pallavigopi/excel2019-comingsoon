@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .header {
 	display: flex;
 	position: relative;
@@ -27,6 +29,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	font-family: Montserrat;
 }
 
 /* Center Header portion */
@@ -38,9 +41,6 @@ a {
 	left: 0;
 	right: 0;
 	padding-bottom: 8vh;
-}
-
-.header-title {
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -78,7 +78,7 @@ a {
 }
 
 .logoexcel {
-	max-width: 7vw;
+	max-width: 13vw;
 	padding-right: 0.5vw;
 }
 
@@ -104,15 +104,16 @@ a {
 		display: none;
 	}
 	.header-center {
-		height: 12vh;
+		height: 14vh;
 		margin: 1vh auto 0vh auto;
 		padding-bottom: 1vh;
 	}
 	.header-right {
-		padding: 1vh;
+		display: none;
+		/* padding: 1vh;
 		height: 12vw;
 		width: 48vw;
-		margin: 16vh auto 0vh auto;
+		margin: 16vh auto 0vh auto; */
 	}
 	.logomec {
 		max-width: 10vw;
@@ -122,8 +123,7 @@ a {
 		font-size: 6vw;
 	}
 	.logoexcel {
-		max-width: 16vw;
-		padding-right: 2vw;
+		max-width: 38vw;
 	}
 	.logolegacy {
 		max-width: 12vw;
