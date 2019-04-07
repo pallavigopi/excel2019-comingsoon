@@ -105,14 +105,14 @@ a {
 	}
 	.header-center {
 		height: 12vh;
-		margin: 1vh auto;
+		margin: 1vh auto 0vh auto;
 		padding-bottom: 1vh;
 	}
 	.header-right {
 		padding: 1vh;
 		height: 12vw;
 		width: 48vw;
-		margin: 16vh auto 5vh auto;
+		margin: 16vh auto 0vh auto;
 	}
 	.logomec {
 		max-width: 10vw;

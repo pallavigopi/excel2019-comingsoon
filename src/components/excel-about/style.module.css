@@ -7,8 +7,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.4vw;
 	line-height: 2vh;
-	margin: 14vh auto 4vh auto;
-	overflow-wrap: break-word;
+	margin: 14vh auto 2vh auto;
 }
 
 .about-text {
@@ -21,7 +20,8 @@
 	.excel-details {
 		font-size: 4vw;
 		line-height: 1.2vh;
-		height: 7vh;
-		margin-top: 1vh;
+		height: 13vh;
+		width: 80vw;
+		margin-top: 0.5vh;
 	}
 }
