@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import styles from './style.module.css';
-import excelLogo from './excel2018.png';
+import excelLogo from './excel.png';
 import mecLogo from './Meclogo.png';
 import excel2014 from './excel2014.png';
 import excel2015 from './excel2015.png';
@@ -19,10 +19,7 @@ export default class Header extends Component {
                     </div>
 
                     <div className={styles["header-center"]}>
-                        <div className={styles["header-title"]}>
                         <a href="https://excelmec.org" target="_blank"><img className={styles["logoexcel"]} src={excelLogo}/></a>
-                            <div className = {styles["excel"]}>EXCEL 2019</div>
-                        </div>
                     </div>
 
                     <div className={styles["header-right"]}>
