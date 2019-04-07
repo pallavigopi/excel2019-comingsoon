@@ -12,8 +12,20 @@ export default class Home extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            events: [{ name: "IBeTo 2019", imgsrc: ibetoLogo, link: "http://ibeto.excelmec.org/", description: "Lots of cash, low competition, easy win. More info here " },
-            { name: "HackForTomorrow 2019", imgsrc: hackfortomorrow, link: "https://hackfortomorrow.excelmec.org/", description: "Coming Soon!" }]
+            events: [
+                {
+                    name: "IBeTo 2019",
+                    imgsrc: ibetoLogo,
+                    link: "http://ibeto.excelmec.org/",
+                    description: "Every social problem has a bright solution that needs to be found. IBeTo provides a platform to connect the brightest minds with these problems to create innovative solutions."
+                },
+                {
+                    name: "HackForTomorrow 2019",
+                    imgsrc: hackfortomorrow,
+                    link: "https://hackfortomorrow.excelmec.org/",
+                    description: "Coming Soon!"
+                }
+            ]
         }
     }
     render() {
@@ -62,11 +74,10 @@ export default class Home extends Component {
                 />
                 <Header />
                 <ExcelAbout />
-
+                <ComingSoon />
                 <div id={styles["event-grid"]}>
                     {grid}
                 </div>
-                <ComingSoon />
 
             </div>
         );

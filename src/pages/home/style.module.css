@@ -1,16 +1,13 @@
 #event-grid {
-	width: 80vw;
-	margin: auto 10vw;
+	margin: auto;
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-gap: 10vw;
 	padding-bottom: 2vh;
 }
 
 .events {
 	text-decoration: none;
-	width: 35vw;
-	margin: auto auto;
+	margin: auto;
 }
 
 .home {
@@ -28,8 +25,5 @@
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 0vh;
-	}
-	.events {
-		width: 60vw;
 	}
 }
