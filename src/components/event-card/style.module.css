@@ -2,7 +2,7 @@
 
 .event-card {
     position: relative;
-    height: 10vw;
+    height: 7vw;
     border-radius: 5px;
     color: black;
     z-index: 0;
@@ -21,13 +21,12 @@
 
 .event {
     width: 35vw;
-    /*height: 8vw;*/
     display: grid;
     grid-template-rows: 30% 60%;
 }
 
 .event-name {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 

@@ -65,8 +65,6 @@ a {
 	display: flex;
 	z-index: 3;
 	flex-direction: row-reverse;
-	background-color: #ffffff77;
-	box-shadow: 0 8px 6px -6px black;
 }
 
 .header-right>a:hover {
@@ -86,6 +84,12 @@ a {
 
 .logolegacy {
 	max-width: 4vw;
+}
+
+.logolegacy:hover {
+	transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transform: translateY(-5px);
 }
 
 /* Mobile devices */
