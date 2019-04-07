@@ -2,7 +2,8 @@
 
 .event-card {
     position: relative;
-    height: 7vw;
+    height: 10vw;
+    width: 35vw;
     border-radius: 5px;
     color: black;
     z-index: 0;
@@ -33,7 +34,7 @@
 }
 
 .event-description {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -49,7 +50,8 @@
 
 @media only screen and (max-width: 480px) {
     .event-card {
-        height: 20vw;
+        height: 30vw;
+        width: 70vw;
         margin: 1vh 0vh;
         padding: 2vh;
     }
